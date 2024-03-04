@@ -1,0 +1,73 @@
+/* Body */
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+}
+
+/* Card */
+.card {
+  max-width: 100%;
+  max-height: 100%;
+  color: aliceblue;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  width: 340px;
+  padding: 1.9rem 0;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__name {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.header__city {
+  margin-top: -23px;
+  font-size: 13px;
+  color: hsl(75, 94%, 57%);
+}
+.header__description {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Image */
+.Image {
+  margin-top: -10px;
+  width: 25%;
+  border-radius: 3rem;
+}
+
+/* Button*/
+.btn-section {
+  align-items: center;
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.btn-section button {
+  color: aliceblue;
+  border: 0;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 19rem;
+}
+
+.btn-section button:hover {
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(75, 94%, 57%);
+}
+@media screen and (min-width: 500px) {
+  .card {
+    margin: 10rem auto;
+  }
+}
